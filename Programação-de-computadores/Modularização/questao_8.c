@@ -2,7 +2,6 @@
 Na main, use a função 500 vezes para valores de N lidos do usuário (um de cada vez).
 */
 
-
 #include <stdio.h>
 #include <math.h>
 #define TAMANHO 500
@@ -36,15 +35,12 @@ float Primo(int n){
   }
 
 }
- 
-
 
 int main(void) {
 
   int n;
   int y=  TAMANHO;
   float x;
-
 
   for(int i= 0; i<TAMANHO;i++ ){
 
@@ -59,7 +55,6 @@ int main(void) {
     x=Primo(n);
     printf("%f", x);
   }
-
   
   return 0;
 }
